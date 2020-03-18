@@ -1,0 +1,47 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font-family: 'Raleway', sans-serif;
+  background: #A8A8AC;
+}
+.container{
+  width: 100%;
+}
+
+.create_list{
+  position: absolute;
+  top: 30%;
+  left: 30%;
+  width: 28%;
+  z-index: 1;
+  padding: 20px 30px;
+  background: #4DB456 0% 0% no-repeat padding-box;
+  border-radius: 4px;
+  opacity: 1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.create_list a{
+  height: 40px;
+  width: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background: #fff;
+}
+.create_list a i{
+  color: #4DB456;
+}
+
+.create_list h3{
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 0;
+  color: #FFFFFF;
+  opacity: 1;
+}
